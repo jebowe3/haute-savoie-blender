@@ -25,6 +25,9 @@
   <div id="map"></div>
   <script>
 
+    // assign an old paper background color to the map
+    document.getElementById("map").style.backgroundColor = "#eae7d9";
+
     let protocol = new pmtiles.Protocol();
     maplibregl.addProtocol("pmtiles",protocol.tile);
     //let URL = "OUTPUT.pmtiles";
